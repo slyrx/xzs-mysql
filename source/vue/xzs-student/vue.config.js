@@ -18,9 +18,9 @@ module.exports = {
     https: false,
     hotOnly: false,
     proxy: {
-      '/api': {
-        target: 'http://localhost:8000',
-        changeOrigin: true
+      '/api1': {
+        target: 'http://localhost:8008/student/index.html',
+        changeOrigin: true,
       }
     }
   },
